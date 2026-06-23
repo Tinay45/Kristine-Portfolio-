@@ -1,0 +1,52 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Segoe UI,sans-serif;
+}
+
+.navbar{
+    background:#111827;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.hero h3{
+    color:#38bdf8;
+}
+
+.profile-img{
+    width:350px;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+}
+
+.section{
+    padding:100px 0;
+}
+
+.bg-dark2{
+    background:#111827;
+}
+
+.skill-card,
+.project-card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.skill-card:hover,
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
